@@ -1,7 +1,10 @@
-FROM python:3.6-slim
+FROM python:3.11-slim
 
-WORKDIR /app
+LABEL author="amalchazos"
+LABEL project="Monty_Hall_Problem_Simulator"
 
-COPY app.py .
+WORKDIR /monty_hall_app
+
+COPY monty_hall.py .
 
 CMD ["python", "app.py"]
