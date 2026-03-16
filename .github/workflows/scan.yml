@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: ' haproxytech/kubernetes-ingress:latest'
+          default: 'haproxytech/kubernetes-ingress:latest'
 
 # env:
 #   REGISTRY: ghcr.io
