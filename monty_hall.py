@@ -1,7 +1,8 @@
 import random
 
 
-#this is the monty hall problem, where you have 3 doors, one of them has a car behind it and the other two have goats.
+#this is the monty hall problem, where you have 3 doors, one of them has a car behind it and the other two have goats. Can be played manually or simulated for 1000 iterations to see the probabilities of winning by switching or not switching.
+
 def print_doors_with_goat(open_door):
     print("\n  _______    _______    _______")
     for i in range(3):
